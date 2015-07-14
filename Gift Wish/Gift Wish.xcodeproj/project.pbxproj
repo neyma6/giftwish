@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB027FEF18FA8B3300AC046D /* UIImageView+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = EB027FEE18FA8B3300AC046D /* UIImageView+Network.m */; };
+		EB027FF218FA8CA900AC046D /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EB027FF118FA8CA900AC046D /* FTWCache.m */; };
+		EB041926190467AC00D7895F /* DateManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB041925190467AC00D7895F /* DateManipulator.m */; };
+		EBB389F2191FA9D400B173A9 /* iTunesArtwork@1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB389EF191FA9D400B173A9 /* iTunesArtwork@1.png */; };
+		EBB389F3191FA9D400B173A9 /* iTunesArtwork@2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB389F0191FA9D400B173A9 /* iTunesArtwork@2.png */; };
+		EBB389F4191FA9D400B173A9 /* iTunesArtwork@3.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB389F1191FA9D400B173A9 /* iTunesArtwork@3.png */; };
+		EBB389F6191FB03000B173A9 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB389F5191FB03000B173A9 /* border.png */; };
+		EBCC006919181F3A007A2CD2 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCC006819181F3A007A2CD2 /* CustomTextField.m */; };
+		EBCC5C3918F9EAFC00054AC6 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCC5C3818F9EAFC00054AC6 /* ConnectionManager.m */; };
+		EBCCE921190851D1008E5F35 /* Wish.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCCE920190851D1008E5F35 /* Wish.m */; };
+		EBCD4BDD1927E646007E2364 /* main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCD4BDC1927E646007E2364 /* main_logo.png */; };
+		EBCDCC7E18FC742E007DF5E9 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCDCC7D18FC742E007DF5E9 /* UIImage+Resize.m */; };
+		EBCF5C6A18F9907800B687FE /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF5C6918F9907800B687FE /* FriendCell.m */; };
+		EBCF7F6219028287009C4988 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF7F6119028287009C4988 /* UIView+Helper.m */; };
+		EBCF7F6C1902BA0D009C4988 /* InfoPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF7F6B1902BA0D009C4988 /* InfoPanel.m */; };
+		EBCF898C1917AEF700AB5E7F /* Kitchen-List-ingredients-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCF898B1917AEF700AB5E7F /* Kitchen-List-ingredients-icon.png */; };
+		EBCFCB02194F808D001F189C /* button_border.png in Resources */ = {isa = PBXBuildFile; fileRef = EBCFCB01194F808D001F189C /* button_border.png */; };
+		EBD047CA19043E5500F43776 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD047C919043E5500F43776 /* ModalViewController.m */; };
+		EBD27BA118FAF75E003ACA89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD27BA018FAF75E003ACA89 /* QuartzCore.framework */; };
+		EBD27BA418FAF780003ACA89 /* BackGroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD27BA318FAF780003ACA89 /* BackGroundLayer.m */; };
+		EBD2A17D194CAE89002E83B8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD2A17C194CAE89002E83B8 /* StoreKit.framework */; };
+		EBD2A18A194CB728002E83B8 /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2A185194CB728002E83B8 /* IAPManager.m */; };
+		EBD2A18B194CB728002E83B8 /* PurchasesController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2A187194CB728002E83B8 /* PurchasesController.m */; };
+		EBD2A18C194CB728002E83B8 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2A189194CB728002E83B8 /* IAPHelper.m */; };
+		EBD2FBC71901B21900577782 /* WishListPopUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FBC61901B21900577782 /* WishListPopUpController.m */; };
+		EBD729CE19154C6A00723D59 /* background_gift1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD729CD19154C6A00723D59 /* background_gift1.png */; };
+		EBD729D01915500B00723D59 /* background_gift2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD729CF1915500B00723D59 /* background_gift2.png */; };
+		EBD729D2191551EA00723D59 /* facebook_big.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD729D1191551EA00723D59 /* facebook_big.png */; };
+		EBD8630018F96F610023333F /* WishManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD862FF18F96F610023333F /* WishManagerController.m */; };
+		EBD8A9DA18FDCAEA00A1E1FC /* WishList.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD8A9D918FDCAEA00A1E1FC /* WishList.m */; };
+		EBE14A9B194789E400A23F65 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE14A9A194789E400A23F65 /* iAd.framework */; };
+		EBE2FB1D18F8A10A009415A3 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE2FB1C18F8A10A009415A3 /* FriendListViewController.m */; };
+		EBF2079B1913D3BD00C11E1C /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBF207941913D3BD00C11E1C /* default.jpg */; };
+		EBF2079C1913D3BD00C11E1C /* easy.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207951913D3BD00C11E1C /* easy.png */; };
+		EBF2079D1913D3BD00C11E1C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207961913D3BD00C11E1C /* facebook.png */; };
+		EBF2079E1913D3BD00C11E1C /* icon_check.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207971913D3BD00C11E1C /* icon_check.png */; };
+		EBF2079F1913D3BD00C11E1C /* medium.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207981913D3BD00C11E1C /* medium.png */; };
+		EBF207A01913D3BD00C11E1C /* urgent.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207991913D3BD00C11E1C /* urgent.png */; };
+		EBF207A21913D78F00C11E1C /* icon_check2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207A11913D78F00C11E1C /* icon_check2.png */; };
+		EBF207A51913F0F000C11E1C /* cancel1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207A31913F0F000C11E1C /* cancel1.png */; };
+		EBF207A61913F0F000C11E1C /* cancel2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207A41913F0F000C11E1C /* cancel2.png */; };
+		EBF207A81913F4F600C11E1C /* config3.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207A71913F4F600C11E1C /* config3.png */; };
+		EBF207AA1913F94E00C11E1C /* delete2.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207A91913F94E00C11E1C /* delete2.png */; };
+		EBF207AD1913FD0700C11E1C /* ConfirmationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF207AC1913FD0700C11E1C /* ConfirmationDialog.m */; };
+		EBF207AF19140F2B00C11E1C /* config4.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF207AE19140F2B00C11E1C /* config4.png */; };
+		EBF41B911901DA0C00D6F843 /* WishListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF41B901901DA0C00D6F843 /* WishListCell.m */; };
+		EBF56AA118F489FA00FA93B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56AA018F489FA00FA93B8 /* Foundation.framework */; };
+		EBF56AA318F489FA00FA93B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56AA218F489FA00FA93B8 /* CoreGraphics.framework */; };
+		EBF56AA518F489FA00FA93B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56AA418F489FA00FA93B8 /* UIKit.framework */; };
+		EBF56AAB18F489FA00FA93B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF56AA918F489FA00FA93B8 /* InfoPlist.strings */; };
+		EBF56AAD18F489FA00FA93B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF56AAC18F489FA00FA93B8 /* main.m */; };
+		EBF56AB118F489FA00FA93B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF56AB018F489FA00FA93B8 /* AppDelegate.m */; };
+		EBF56AB418F489FA00FA93B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF56AB218F489FA00FA93B8 /* Main.storyboard */; };
+		EBF56AB718F489FA00FA93B8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF56AB618F489FA00FA93B8 /* RootViewController.m */; };
+		EBF56AB918F489FA00FA93B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF56AB818F489FA00FA93B8 /* Images.xcassets */; };
+		EBF56AC018F489FA00FA93B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56ABF18F489FA00FA93B8 /* XCTest.framework */; };
+		EBF56AC118F489FA00FA93B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56AA018F489FA00FA93B8 /* Foundation.framework */; };
+		EBF56AC218F489FA00FA93B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56AA418F489FA00FA93B8 /* UIKit.framework */; };
+		EBF56ACA18F489FA00FA93B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF56AC818F489FA00FA93B8 /* InfoPlist.strings */; };
+		EBF56ACC18F489FA00FA93B8 /* Gift_WishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF56ACB18F489FA00FA93B8 /* Gift_WishTests.m */; };
+		EBF56AD618F4973300FA93B8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF56AD518F4973300FA93B8 /* FacebookSDK.framework */; };
+		EBF92F261927696D00C3DD21 /* HelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF92F251927696D00C3DD21 /* HelpController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF56AC318F489FA00FA93B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF56A9518F489FA00FA93B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF56A9C18F489FA00FA93B8;
+			remoteInfo = "Gift Wish";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB027FED18FA8B3300AC046D /* UIImageView+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Network.h"; sourceTree = "<group>"; };
+		EB027FEE18FA8B3300AC046D /* UIImageView+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Network.m"; sourceTree = "<group>"; };
+		EB027FF018FA8CA900AC046D /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
+		EB027FF118FA8CA900AC046D /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
+		EB041924190467AC00D7895F /* DateManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManipulator.h; sourceTree = "<group>"; };
+		EB041925190467AC00D7895F /* DateManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManipulator.m; sourceTree = "<group>"; };
+		EBB389EF191FA9D400B173A9 /* iTunesArtwork@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@1.png"; path = "images/iTunesArtwork@1.png"; sourceTree = "<group>"; };
+		EBB389F0191FA9D400B173A9 /* iTunesArtwork@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2.png"; path = "images/iTunesArtwork@2.png"; sourceTree = "<group>"; };
+		EBB389F1191FA9D400B173A9 /* iTunesArtwork@3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@3.png"; path = "images/iTunesArtwork@3.png"; sourceTree = "<group>"; };
+		EBB389F5191FB03000B173A9 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = border.png; path = images/border.png; sourceTree = "<group>"; };
+		EBCC006719181F3A007A2CD2 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		EBCC006819181F3A007A2CD2 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		EBCC5C3718F9EAFC00054AC6 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		EBCC5C3818F9EAFC00054AC6 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		EBCCE91F190851D1008E5F35 /* Wish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wish.h; sourceTree = "<group>"; };
+		EBCCE920190851D1008E5F35 /* Wish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wish.m; sourceTree = "<group>"; };
+		EBCD4BDC1927E646007E2364 /* main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_logo.png; path = images/main_logo.png; sourceTree = "<group>"; };
+		EBCDCC7C18FC742E007DF5E9 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		EBCDCC7D18FC742E007DF5E9 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		EBCF5C6818F9907800B687FE /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		EBCF5C6918F9907800B687FE /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		EBCF7F6019028287009C4988 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		EBCF7F6119028287009C4988 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		EBCF7F6A1902BA0D009C4988 /* InfoPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPanel.h; sourceTree = "<group>"; };
+		EBCF7F6B1902BA0D009C4988 /* InfoPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPanel.m; sourceTree = "<group>"; };
+		EBCF898B1917AEF700AB5E7F /* Kitchen-List-ingredients-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kitchen-List-ingredients-icon.png"; path = "images/Kitchen-List-ingredients-icon.png"; sourceTree = "<group>"; };
+		EBCFCB01194F808D001F189C /* button_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_border.png; path = images/button_border.png; sourceTree = "<group>"; };
+		EBD047C819043E5500F43776 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		EBD047C919043E5500F43776 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		EBD27BA018FAF75E003ACA89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EBD27BA218FAF780003ACA89 /* BackGroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackGroundLayer.h; sourceTree = "<group>"; };
+		EBD27BA318FAF780003ACA89 /* BackGroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackGroundLayer.m; sourceTree = "<group>"; };
+		EBD2A17C194CAE89002E83B8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EBD2A184194CB728002E83B8 /* IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
+		EBD2A185194CB728002E83B8 /* IAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPManager.m; sourceTree = "<group>"; };
+		EBD2A186194CB728002E83B8 /* PurchasesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasesController.h; sourceTree = "<group>"; };
+		EBD2A187194CB728002E83B8 /* PurchasesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasesController.m; sourceTree = "<group>"; };
+		EBD2A188194CB728002E83B8 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		EBD2A189194CB728002E83B8 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		EBD2FBC51901B21900577782 /* WishListPopUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishListPopUpController.h; sourceTree = "<group>"; };
+		EBD2FBC61901B21900577782 /* WishListPopUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishListPopUpController.m; sourceTree = "<group>"; };
+		EBD729CD19154C6A00723D59 /* background_gift1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_gift1.png; path = images/background_gift1.png; sourceTree = "<group>"; };
+		EBD729CF1915500B00723D59 /* background_gift2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_gift2.png; path = images/background_gift2.png; sourceTree = "<group>"; };
+		EBD729D1191551EA00723D59 /* facebook_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_big.png; path = images/facebook_big.png; sourceTree = "<group>"; };
+		EBD862FE18F96F610023333F /* WishManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishManagerController.h; sourceTree = "<group>"; };
+		EBD862FF18F96F610023333F /* WishManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishManagerController.m; sourceTree = "<group>"; };
+		EBD8A9D818FDCAEA00A1E1FC /* WishList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishList.h; sourceTree = "<group>"; };
+		EBD8A9D918FDCAEA00A1E1FC /* WishList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishList.m; sourceTree = "<group>"; };
+		EBE14A9A194789E400A23F65 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		EBE14A9C19478BAF00A23F65 /* BannerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerProtocol.h; sourceTree = "<group>"; };
+		EBE2FB1B18F8A10A009415A3 /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		EBE2FB1C18F8A10A009415A3 /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		EBF207941913D3BD00C11E1C /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = default.jpg; path = images/default.jpg; sourceTree = "<group>"; };
+		EBF207951913D3BD00C11E1C /* easy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = easy.png; path = images/easy.png; sourceTree = "<group>"; };
+		EBF207961913D3BD00C11E1C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = images/facebook.png; sourceTree = "<group>"; };
+		EBF207971913D3BD00C11E1C /* icon_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_check.png; path = images/icon_check.png; sourceTree = "<group>"; };
+		EBF207981913D3BD00C11E1C /* medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medium.png; path = images/medium.png; sourceTree = "<group>"; };
+		EBF207991913D3BD00C11E1C /* urgent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = urgent.png; path = images/urgent.png; sourceTree = "<group>"; };
+		EBF207A11913D78F00C11E1C /* icon_check2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_check2.png; path = images/icon_check2.png; sourceTree = "<group>"; };
+		EBF207A31913F0F000C11E1C /* cancel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel1.png; path = images/cancel1.png; sourceTree = "<group>"; };
+		EBF207A41913F0F000C11E1C /* cancel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel2.png; path = images/cancel2.png; sourceTree = "<group>"; };
+		EBF207A71913F4F600C11E1C /* config3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = config3.png; path = images/config3.png; sourceTree = "<group>"; };
+		EBF207A91913F94E00C11E1C /* delete2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete2.png; path = images/delete2.png; sourceTree = "<group>"; };
+		EBF207AB1913FD0700C11E1C /* ConfirmationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationDialog.h; sourceTree = "<group>"; };
+		EBF207AC1913FD0700C11E1C /* ConfirmationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationDialog.m; sourceTree = "<group>"; };
+		EBF207AE19140F2B00C11E1C /* config4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = config4.png; path = images/config4.png; sourceTree = "<group>"; };
+		EBF41B8F1901DA0C00D6F843 /* WishListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishListCell.h; sourceTree = "<group>"; };
+		EBF41B901901DA0C00D6F843 /* WishListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishListCell.m; sourceTree = "<group>"; };
+		EBF56A9D18F489FA00FA93B8 /* Gift Wish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gift Wish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF56AA018F489FA00FA93B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBF56AA218F489FA00FA93B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBF56AA418F489FA00FA93B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBF56AA818F489FA00FA93B8 /* Gift Wish-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gift Wish-Info.plist"; sourceTree = "<group>"; };
+		EBF56AAA18F489FA00FA93B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF56AAC18F489FA00FA93B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF56AAE18F489FA00FA93B8 /* Gift Wish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gift Wish-Prefix.pch"; sourceTree = "<group>"; };
+		EBF56AAF18F489FA00FA93B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBF56AB018F489FA00FA93B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBF56AB318F489FA00FA93B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF56AB518F489FA00FA93B8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EBF56AB618F489FA00FA93B8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EBF56AB818F489FA00FA93B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBF56ABE18F489FA00FA93B8 /* Gift WishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gift WishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF56ABF18F489FA00FA93B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EBF56AC718F489FA00FA93B8 /* Gift WishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gift WishTests-Info.plist"; sourceTree = "<group>"; };
+		EBF56AC918F489FA00FA93B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF56ACB18F489FA00FA93B8 /* Gift_WishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gift_WishTests.m; sourceTree = "<group>"; };
+		EBF56AD518F4973300FA93B8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		EBF92F241927696D00C3DD21 /* HelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpController.h; sourceTree = "<group>"; };
+		EBF92F251927696D00C3DD21 /* HelpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF56A9A18F489FA00FA93B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2A17D194CAE89002E83B8 /* StoreKit.framework in Frameworks */,
+				EBE14A9B194789E400A23F65 /* iAd.framework in Frameworks */,
+				EBD27BA118FAF75E003ACA89 /* QuartzCore.framework in Frameworks */,
+				EBF56AA318F489FA00FA93B8 /* CoreGraphics.framework in Frameworks */,
+				EBF56AD618F4973300FA93B8 /* FacebookSDK.framework in Frameworks */,
+				EBF56AA518F489FA00FA93B8 /* UIKit.framework in Frameworks */,
+				EBF56AA118F489FA00FA93B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF56ABB18F489FA00FA93B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF56AC018F489FA00FA93B8 /* XCTest.framework in Frameworks */,
+				EBF56AC218F489FA00FA93B8 /* UIKit.framework in Frameworks */,
+				EBF56AC118F489FA00FA93B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBCF7F691902B9E2009C4988 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2A17B194CAE23002E83B8 /* In-App-Purchases */,
+				EBD27BA718FB0A4B003ACA89 /* Utils */,
+				EBCF7F6A1902BA0D009C4988 /* InfoPanel.h */,
+				EBCF7F6B1902BA0D009C4988 /* InfoPanel.m */,
+				EBF207AB1913FD0700C11E1C /* ConfirmationDialog.h */,
+				EBF207AC1913FD0700C11E1C /* ConfirmationDialog.m */,
+				EBF92F241927696D00C3DD21 /* HelpController.h */,
+				EBF92F251927696D00C3DD21 /* HelpController.m */,
+				EBE14A9C19478BAF00A23F65 /* BannerProtocol.h */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		EBD047CC1904471100F43776 /* Dead Codes */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2FBC51901B21900577782 /* WishListPopUpController.h */,
+				EBD2FBC61901B21900577782 /* WishListPopUpController.m */,
+			);
+			name = "Dead Codes";
+			sourceTree = "<group>";
+		};
+		EBD27BA518FB0A16003ACA89 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF5C6818F9907800B687FE /* FriendCell.h */,
+				EBCF5C6918F9907800B687FE /* FriendCell.m */,
+				EBE2FB1B18F8A10A009415A3 /* FriendListViewController.h */,
+				EBE2FB1C18F8A10A009415A3 /* FriendListViewController.m */,
+			);
+			name = FriendList;
+			sourceTree = "<group>";
+		};
+		EBD27BA618FB0A37003ACA89 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				EBD862FE18F96F610023333F /* WishManagerController.h */,
+				EBD862FF18F96F610023333F /* WishManagerController.m */,
+				EBF41B8F1901DA0C00D6F843 /* WishListCell.h */,
+				EBF41B901901DA0C00D6F843 /* WishListCell.m */,
+				EBD047C819043E5500F43776 /* ModalViewController.h */,
+				EBD047C919043E5500F43776 /* ModalViewController.m */,
+			);
+			name = WishList;
+			sourceTree = "<group>";
+		};
+		EBD27BA718FB0A4B003ACA89 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EBCC5C3718F9EAFC00054AC6 /* ConnectionManager.h */,
+				EBCC5C3818F9EAFC00054AC6 /* ConnectionManager.m */,
+				EB027FED18FA8B3300AC046D /* UIImageView+Network.h */,
+				EB027FEE18FA8B3300AC046D /* UIImageView+Network.m */,
+				EB027FF018FA8CA900AC046D /* FTWCache.h */,
+				EB027FF118FA8CA900AC046D /* FTWCache.m */,
+				EBD27BA218FAF780003ACA89 /* BackGroundLayer.h */,
+				EBD27BA318FAF780003ACA89 /* BackGroundLayer.m */,
+				EBCDCC7C18FC742E007DF5E9 /* UIImage+Resize.h */,
+				EBCDCC7D18FC742E007DF5E9 /* UIImage+Resize.m */,
+				EBCF7F6019028287009C4988 /* UIView+Helper.h */,
+				EBCF7F6119028287009C4988 /* UIView+Helper.m */,
+				EB041924190467AC00D7895F /* DateManipulator.h */,
+				EB041925190467AC00D7895F /* DateManipulator.m */,
+				EBCC006719181F3A007A2CD2 /* CustomTextField.h */,
+				EBCC006819181F3A007A2CD2 /* CustomTextField.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EBD27BA818FB1378003ACA89 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				EBF56AB518F489FA00FA93B8 /* RootViewController.h */,
+				EBF56AB618F489FA00FA93B8 /* RootViewController.m */,
+			);
+			name = RootView;
+			sourceTree = "<group>";
+		};
+		EBD2A17B194CAE23002E83B8 /* In-App-Purchases */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2A184194CB728002E83B8 /* IAPManager.h */,
+				EBD2A185194CB728002E83B8 /* IAPManager.m */,
+				EBD2A186194CB728002E83B8 /* PurchasesController.h */,
+				EBD2A187194CB728002E83B8 /* PurchasesController.m */,
+				EBD2A188194CB728002E83B8 /* IAPHelper.h */,
+				EBD2A189194CB728002E83B8 /* IAPHelper.m */,
+			);
+			name = "In-App-Purchases";
+			sourceTree = "<group>";
+		};
+		EBD8A9D718FDCAD600A1E1FC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8A9D818FDCAEA00A1E1FC /* WishList.h */,
+				EBD8A9D918FDCAEA00A1E1FC /* WishList.m */,
+				EBCCE91F190851D1008E5F35 /* Wish.h */,
+				EBCCE920190851D1008E5F35 /* Wish.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		EBF207921913D39500C11E1C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EBCFCB01194F808D001F189C /* button_border.png */,
+				EBCD4BDC1927E646007E2364 /* main_logo.png */,
+				EBB389F5191FB03000B173A9 /* border.png */,
+				EBB389EF191FA9D400B173A9 /* iTunesArtwork@1.png */,
+				EBB389F0191FA9D400B173A9 /* iTunesArtwork@2.png */,
+				EBB389F1191FA9D400B173A9 /* iTunesArtwork@3.png */,
+				EBCF898B1917AEF700AB5E7F /* Kitchen-List-ingredients-icon.png */,
+				EBD729D1191551EA00723D59 /* facebook_big.png */,
+				EBD729CF1915500B00723D59 /* background_gift2.png */,
+				EBD729CD19154C6A00723D59 /* background_gift1.png */,
+				EBF207AE19140F2B00C11E1C /* config4.png */,
+				EBF207A91913F94E00C11E1C /* delete2.png */,
+				EBF207A71913F4F600C11E1C /* config3.png */,
+				EBF207A31913F0F000C11E1C /* cancel1.png */,
+				EBF207A41913F0F000C11E1C /* cancel2.png */,
+				EBF207A11913D78F00C11E1C /* icon_check2.png */,
+				EBF207941913D3BD00C11E1C /* default.jpg */,
+				EBF207951913D3BD00C11E1C /* easy.png */,
+				EBF207961913D3BD00C11E1C /* facebook.png */,
+				EBF207971913D3BD00C11E1C /* icon_check.png */,
+				EBF207981913D3BD00C11E1C /* medium.png */,
+				EBF207991913D3BD00C11E1C /* urgent.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		EBF56A9418F489FA00FA93B8 = {
+			isa = PBXGroup;
+			children = (
+				EBF56AA618F489FA00FA93B8 /* Gift Wish */,
+				EBF56AC518F489FA00FA93B8 /* Gift WishTests */,
+				EBF56A9F18F489FA00FA93B8 /* Frameworks */,
+				EBF56A9E18F489FA00FA93B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF56A9E18F489FA00FA93B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF56A9D18F489FA00FA93B8 /* Gift Wish.app */,
+				EBF56ABE18F489FA00FA93B8 /* Gift WishTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF56A9F18F489FA00FA93B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD2A17C194CAE89002E83B8 /* StoreKit.framework */,
+				EBE14A9A194789E400A23F65 /* iAd.framework */,
+				EBD27BA018FAF75E003ACA89 /* QuartzCore.framework */,
+				EBF56AD518F4973300FA93B8 /* FacebookSDK.framework */,
+				EBF56AA018F489FA00FA93B8 /* Foundation.framework */,
+				EBF56AA218F489FA00FA93B8 /* CoreGraphics.framework */,
+				EBF56AA418F489FA00FA93B8 /* UIKit.framework */,
+				EBF56ABF18F489FA00FA93B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF56AA618F489FA00FA93B8 /* Gift Wish */ = {
+			isa = PBXGroup;
+			children = (
+				EBD047CC1904471100F43776 /* Dead Codes */,
+				EBCF7F691902B9E2009C4988 /* Shared */,
+				EBD8A9D718FDCAD600A1E1FC /* Domain */,
+				EBD27BA818FB1378003ACA89 /* RootView */,
+				EBD27BA618FB0A37003ACA89 /* WishList */,
+				EBD27BA518FB0A16003ACA89 /* FriendList */,
+				EBF56AAF18F489FA00FA93B8 /* AppDelegate.h */,
+				EBF56AB018F489FA00FA93B8 /* AppDelegate.m */,
+				EBF56AB218F489FA00FA93B8 /* Main.storyboard */,
+				EBF56AB818F489FA00FA93B8 /* Images.xcassets */,
+				EBF56AA718F489FA00FA93B8 /* Supporting Files */,
+			);
+			path = "Gift Wish";
+			sourceTree = "<group>";
+		};
+		EBF56AA718F489FA00FA93B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF207921913D39500C11E1C /* images */,
+				EBF56AA818F489FA00FA93B8 /* Gift Wish-Info.plist */,
+				EBF56AA918F489FA00FA93B8 /* InfoPlist.strings */,
+				EBF56AAC18F489FA00FA93B8 /* main.m */,
+				EBF56AAE18F489FA00FA93B8 /* Gift Wish-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF56AC518F489FA00FA93B8 /* Gift WishTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF56ACB18F489FA00FA93B8 /* Gift_WishTests.m */,
+				EBF56AC618F489FA00FA93B8 /* Supporting Files */,
+			);
+			path = "Gift WishTests";
+			sourceTree = "<group>";
+		};
+		EBF56AC618F489FA00FA93B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF56AC718F489FA00FA93B8 /* Gift WishTests-Info.plist */,
+				EBF56AC818F489FA00FA93B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF56A9C18F489FA00FA93B8 /* Gift Wish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF56ACF18F489FA00FA93B8 /* Build configuration list for PBXNativeTarget "Gift Wish" */;
+			buildPhases = (
+				EBF56A9918F489FA00FA93B8 /* Sources */,
+				EBF56A9A18F489FA00FA93B8 /* Frameworks */,
+				EBF56A9B18F489FA00FA93B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gift Wish";
+			productName = "Gift Wish";
+			productReference = EBF56A9D18F489FA00FA93B8 /* Gift Wish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF56ABD18F489FA00FA93B8 /* Gift WishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF56AD218F489FA00FA93B8 /* Build configuration list for PBXNativeTarget "Gift WishTests" */;
+			buildPhases = (
+				EBF56ABA18F489FA00FA93B8 /* Sources */,
+				EBF56ABB18F489FA00FA93B8 /* Frameworks */,
+				EBF56ABC18F489FA00FA93B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF56AC418F489FA00FA93B8 /* PBXTargetDependency */,
+			);
+			name = "Gift WishTests";
+			productName = "Gift WishTests";
+			productReference = EBF56ABE18F489FA00FA93B8 /* Gift WishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF56A9518F489FA00FA93B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = neyma;
+				TargetAttributes = {
+					EBF56ABD18F489FA00FA93B8 = {
+						TestTargetID = EBF56A9C18F489FA00FA93B8;
+					};
+				};
+			};
+			buildConfigurationList = EBF56A9818F489FA00FA93B8 /* Build configuration list for PBXProject "Gift Wish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF56A9418F489FA00FA93B8;
+			productRefGroup = EBF56A9E18F489FA00FA93B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF56A9C18F489FA00FA93B8 /* Gift Wish */,
+				EBF56ABD18F489FA00FA93B8 /* Gift WishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF56A9B18F489FA00FA93B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB389F3191FA9D400B173A9 /* iTunesArtwork@2.png in Resources */,
+				EBF56AB918F489FA00FA93B8 /* Images.xcassets in Resources */,
+				EBD729CE19154C6A00723D59 /* background_gift1.png in Resources */,
+				EBF56AAB18F489FA00FA93B8 /* InfoPlist.strings in Resources */,
+				EBD729D01915500B00723D59 /* background_gift2.png in Resources */,
+				EBF207AF19140F2B00C11E1C /* config4.png in Resources */,
+				EBF2079B1913D3BD00C11E1C /* default.jpg in Resources */,
+				EBB389F4191FA9D400B173A9 /* iTunesArtwork@3.png in Resources */,
+				EBD729D2191551EA00723D59 /* facebook_big.png in Resources */,
+				EBF2079D1913D3BD00C11E1C /* facebook.png in Resources */,
+				EBF207A51913F0F000C11E1C /* cancel1.png in Resources */,
+				EBF207AA1913F94E00C11E1C /* delete2.png in Resources */,
+				EBF2079C1913D3BD00C11E1C /* easy.png in Resources */,
+				EBCD4BDD1927E646007E2364 /* main_logo.png in Resources */,
+				EBF2079F1913D3BD00C11E1C /* medium.png in Resources */,
+				EBF2079E1913D3BD00C11E1C /* icon_check.png in Resources */,
+				EBB389F2191FA9D400B173A9 /* iTunesArtwork@1.png in Resources */,
+				EBCFCB02194F808D001F189C /* button_border.png in Resources */,
+				EBF207A61913F0F000C11E1C /* cancel2.png in Resources */,
+				EBB389F6191FB03000B173A9 /* border.png in Resources */,
+				EBF207A21913D78F00C11E1C /* icon_check2.png in Resources */,
+				EBF207A01913D3BD00C11E1C /* urgent.png in Resources */,
+				EBF56AB418F489FA00FA93B8 /* Main.storyboard in Resources */,
+				EBF207A81913F4F600C11E1C /* config3.png in Resources */,
+				EBCF898C1917AEF700AB5E7F /* Kitchen-List-ingredients-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF56ABC18F489FA00FA93B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF56ACA18F489FA00FA93B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF56A9918F489FA00FA93B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF207AD1913FD0700C11E1C /* ConfirmationDialog.m in Sources */,
+				EBE2FB1D18F8A10A009415A3 /* FriendListViewController.m in Sources */,
+				EBD2A18B194CB728002E83B8 /* PurchasesController.m in Sources */,
+				EBF92F261927696D00C3DD21 /* HelpController.m in Sources */,
+				EBD2A18A194CB728002E83B8 /* IAPManager.m in Sources */,
+				EB027FEF18FA8B3300AC046D /* UIImageView+Network.m in Sources */,
+				EBCF7F6C1902BA0D009C4988 /* InfoPanel.m in Sources */,
+				EBCC006919181F3A007A2CD2 /* CustomTextField.m in Sources */,
+				EBF41B911901DA0C00D6F843 /* WishListCell.m in Sources */,
+				EB027FF218FA8CA900AC046D /* FTWCache.m in Sources */,
+				EBD2A18C194CB728002E83B8 /* IAPHelper.m in Sources */,
+				EBF56AB718F489FA00FA93B8 /* RootViewController.m in Sources */,
+				EBD8A9DA18FDCAEA00A1E1FC /* WishList.m in Sources */,
+				EBF56AB118F489FA00FA93B8 /* AppDelegate.m in Sources */,
+				EB041926190467AC00D7895F /* DateManipulator.m in Sources */,
+				EBD2FBC71901B21900577782 /* WishListPopUpController.m in Sources */,
+				EBD047CA19043E5500F43776 /* ModalViewController.m in Sources */,
+				EBCF5C6A18F9907800B687FE /* FriendCell.m in Sources */,
+				EBF56AAD18F489FA00FA93B8 /* main.m in Sources */,
+				EBCC5C3918F9EAFC00054AC6 /* ConnectionManager.m in Sources */,
+				EBCCE921190851D1008E5F35 /* Wish.m in Sources */,
+				EBCDCC7E18FC742E007DF5E9 /* UIImage+Resize.m in Sources */,
+				EBD8630018F96F610023333F /* WishManagerController.m in Sources */,
+				EBD27BA418FAF780003ACA89 /* BackGroundLayer.m in Sources */,
+				EBCF7F6219028287009C4988 /* UIView+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF56ABA18F489FA00FA93B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF56ACC18F489FA00FA93B8 /* Gift_WishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF56AC418F489FA00FA93B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF56A9C18F489FA00FA93B8 /* Gift Wish */;
+			targetProxy = EBF56AC318F489FA00FA93B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF56AA918F489FA00FA93B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF56AAA18F489FA00FA93B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBF56AB218F489FA00FA93B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF56AB318F489FA00FA93B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF56AC818F489FA00FA93B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF56AC918F489FA00FA93B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF56ACD18F489FA00FA93B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBF56ACE18F489FA00FA93B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF56AD018F489FA00FA93B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gift Wish/Gift Wish-Prefix.pch";
+				INFOPLIST_FILE = "Gift Wish/Gift Wish-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-v";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBF56AD118F489FA00FA93B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gift Wish/Gift Wish-Prefix.pch";
+				INFOPLIST_FILE = "Gift Wish/Gift Wish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBF56AD318F489FA00FA93B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gift Wish.app/Gift Wish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gift Wish/Gift Wish-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gift WishTests/Gift WishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EBF56AD418F489FA00FA93B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gift Wish.app/Gift Wish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gift Wish/Gift Wish-Prefix.pch";
+				INFOPLIST_FILE = "Gift WishTests/Gift WishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF56A9818F489FA00FA93B8 /* Build configuration list for PBXProject "Gift Wish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF56ACD18F489FA00FA93B8 /* Debug */,
+				EBF56ACE18F489FA00FA93B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF56ACF18F489FA00FA93B8 /* Build configuration list for PBXNativeTarget "Gift Wish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF56AD018F489FA00FA93B8 /* Debug */,
+				EBF56AD118F489FA00FA93B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF56AD218F489FA00FA93B8 /* Build configuration list for PBXNativeTarget "Gift WishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF56AD318F489FA00FA93B8 /* Debug */,
+				EBF56AD418F489FA00FA93B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF56A9518F489FA00FA93B8 /* Project object */;
+}
